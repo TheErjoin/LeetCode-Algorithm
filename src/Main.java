@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         var easyAlgorithmFactory = new EasyAlgorithmFactory();
-        var algorithmFactory = easyAlgorithmFactory.createAlgorithm(EasyAlgorithmType.SUM_OF_DIGITS_OF_STRING_AFTER_CONVERT_ALGORITHM);
+        var algorithmFactory = easyAlgorithmFactory.createAlgorithm(EasyAlgorithmType.PALINDROME_NUMBER_ALGORITHM);
         algorithmFactory.runAlgorithm();
     }
 }
