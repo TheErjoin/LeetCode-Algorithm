@@ -1,11 +1,11 @@
 import EasyAlgorithm.factory.EasyAlgorithmFactory;
-import EasyAlgorithm.factory.EasyAlgorithmType;
+import EasyAlgorithm.type.EasyAlgorithmType;
 
 public class Main {
     public static void main(String[] args) {
 
         var easyAlgorithmFactory = new EasyAlgorithmFactory();
-        var algorithmFactory = easyAlgorithmFactory.createAlgorithm(EasyAlgorithmType.PALINDROME_NUMBER_ALGORITHM);
+        var algorithmFactory = easyAlgorithmFactory.createAlgorithm(EasyAlgorithmType.ROMAN_TO_INT_ALGORITHM);
         algorithmFactory.runAlgorithm();
     }
 }
