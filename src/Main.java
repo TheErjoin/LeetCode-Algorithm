@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         var easyAlgorithmFactory = new EasyAlgorithmFactory();
-        var algorithmFactory = easyAlgorithmFactory.createAlgorithm(EasyAlgorithmType.ROMAN_TO_INT_ALGORITHM);
+        var algorithmFactory = easyAlgorithmFactory.createAlgorithm(EasyAlgorithmType.LONGEST_COMMON_PREFIX);
         algorithmFactory.runAlgorithm();
     }
 }
