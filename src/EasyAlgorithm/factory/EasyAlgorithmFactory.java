@@ -14,6 +14,7 @@ public class EasyAlgorithmFactory implements CreationEasyAlgorithmFactory {
             case LONGEST_COMMON_PREFIX -> new LongestCommonPrefixAlgorithm();
             case SCORE_OF_A_STRING -> new ScoreOfAString();
             case VALID_PARENTHESES -> new ValidParentheses();
+            case LENGTH_OF_LAST_WORLD -> new LengthOfLastWord();
             default -> throw new IllegalArgumentException("Unable algorithm type");
         };
     }
