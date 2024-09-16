@@ -1,11 +1,11 @@
 import EasyAlgorithm.factory.EasyAlgorithmFactory;
-import EasyAlgorithm.type.EasyAlgorithmType;
+import EasyAlgorithm.type.EasyAlgorithmConstant;
 
 public class Main {
     public static void main(String[] args) {
 
         var easyAlgorithmFactory = new EasyAlgorithmFactory();
-        var algorithmFactory = easyAlgorithmFactory.createAlgorithm(EasyAlgorithmType.LENGTH_OF_LAST_WORLD);
+        var algorithmFactory = easyAlgorithmFactory.createAlgorithm(EasyAlgorithmConstant.REMOVE_ALGORITHMS);
         algorithmFactory.runAlgorithm();
     }
 }

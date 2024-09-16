@@ -1,8 +1,8 @@
 package EasyAlgorithm.factory;
 
-import EasyAlgorithm.type.EasyAlgorithmType;
+import EasyAlgorithm.type.EasyAlgorithmConstant;
 
 public interface CreationEasyAlgorithmFactory {
 
-    AlgorithmFactory createAlgorithm(EasyAlgorithmType easyAlgorithm);
+    AlgorithmFactory createAlgorithm(EasyAlgorithmConstant easyAlgorithm);
 }

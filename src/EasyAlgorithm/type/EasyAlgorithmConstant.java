@@ -1,6 +1,6 @@
 package EasyAlgorithm.type;
 
-public enum EasyAlgorithmType {
+public enum EasyAlgorithmConstant {
     TWO_SUM,
     SUM_OF_DIGITS_OF_STRING_AFTER_CONVERT,
     PALINDROME_NUMBER,
@@ -9,5 +9,6 @@ public enum EasyAlgorithmType {
     MERGE_TWO_SORTED_LISTS,
     SCORE_OF_A_STRING,
     VALID_PARENTHESES,
-    LENGTH_OF_LAST_WORLD
+    LENGTH_OF_LAST_WORLD,
+    REMOVE_ALGORITHMS
 }
