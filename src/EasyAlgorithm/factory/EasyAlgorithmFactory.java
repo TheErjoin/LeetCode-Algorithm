@@ -17,6 +17,7 @@ public class EasyAlgorithmFactory implements CreationEasyAlgorithmFactory {
             case LENGTH_OF_LAST_WORLD -> new LengthOfLastWord();
             case REMOVE_ALGORITHMS -> new RemoveDuplicates();
             case MERGE_TWO_SORTED_LISTS -> new MergeTwoSortedLists();
+            case PLUS_ONE -> new PlusOne();
             default -> throw new IllegalArgumentException("Unable algorithm type");
         };
     }

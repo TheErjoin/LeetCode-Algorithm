@@ -10,5 +10,6 @@ public enum EasyAlgorithmConstant {
     SCORE_OF_A_STRING,
     VALID_PARENTHESES,
     LENGTH_OF_LAST_WORLD,
-    REMOVE_ALGORITHMS
+    REMOVE_ALGORITHMS,
+    PLUS_ONE
 }
